@@ -47,7 +47,9 @@ body{
     margin: 20px auto;
 }
 
-.card_cta{
+/* COMPONENTE BOTON */
+
+.button{
     display: inline-block;
     text-decoration:none ;
     padding: 12px 20px;
@@ -59,7 +61,40 @@ body{
     text-align: center;
 }
 
+.button__icon{
+    margin-right: 12px;
+}
+
+.button__text{
+    color: var(--white);
+}
+
+.button--black{
+    background-color: #080808;
+}
+
+.button--outline{
+    background: var(--white);
+    color: var(--black, black);
+    border: 5px solid black;
+}
+.button--text{
+    color: var(--black, black);
+}
+
 .card2{
+    --black: #000;
+    background: var(--white);
+    /*background: var(--black);*/
+    width: var(--width);
+    margin: var(--margin);
+    padding: var(--padding);
+    box-shadow: var(--box-shadow);
+    color: var(--black);
+    border-radius: var(--border-radius);
+}
+
+.card3{
     --black: #000;
     background: var(--white);
     /*background: var(--black);*/
