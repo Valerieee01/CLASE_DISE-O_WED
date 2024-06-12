@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+}
+
+body{
+    background-color: rgb(200, 19, 232);
+}
+
+@media (max-width: 900px){
+    body{
+        background: black;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 500px){
+    body{
+        background: white;
+    }
+    h1{
+        color: aquamarine;
+        font-size: 3rem;
+    }
+}

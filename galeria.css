@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Fredericka+the+Great&display=swap');
+body {
+  background: #333;
+  padding: 0px 200px 0px 200px;
+  color: aliceblue;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2,
+p {
+  margin: 0px;
+}
+.contenedor {
+  margin: 0;
+  padding: 0px;
+}
+.card {
+  height: 450px;
+  width: 380px;
+  border: 2px solid rgb(133, 110, 209);
+  display: inline-block;
+  margin: 10px;
+  border-radius: 30% 30% / 80% 80%;
+  transition: all 1s;
+  background: silver;
+}
+img {
+  margin: auto;
+  height: 250px;
+  display: block;
+  text-align: center;
+  padding: 15px;
+}
+h2{
+  text-align: center;
+  color:rgb(133, 110, 209);
+  padding: 10px;
+}
+p{
+  padding: 30px;
+  color: black;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  border: 5px solid rgb(133, 110, 209);
+}
